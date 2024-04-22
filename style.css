@@ -1,17 +1,21 @@
 *{
    margin: auto; 
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
+
+
+
 body{
     background-color: lightblue;
     display:flex;
     justify-content:center; 
-    align-items:flex-start ;
+    align-items:center ;
     min-height: 100vh;
 
 }
 .container{
-    
+    position:relative;
     width:100%;
     max-width: 1000px;
     background: white;
@@ -24,14 +28,19 @@ div .profileText{
     width: 300px;
     background-color: rgb(123, 171, 179);
     padding: 8px;
-    position: absolute;   
-    left: 0;
-    margin-left: 2px; 
-    top: 0;
-    margin-top:2px;
+    position: absolute; 
+    left:2px;
+    top: 1px;
 
-    
 }
 
+div .rightSide {
+    position: absolute; 
+    left: 340px;
+    right: 3px; 
+    top: 100px; 
+    height: 300px;
+    width: 300px; 
+}
 
 
